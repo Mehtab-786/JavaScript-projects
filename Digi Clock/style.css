@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+    margin-top: 14rem;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  
+  .container {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  #red {
+    background-color: rgb(212, 21, 21);
+  }
+  #green {
+    background-color: rgb(18, 169, 18);
+  }
+  #blue {
+    background-color: rgb(35, 96, 202);
+  }
+  #black {
+    background-color: rgb(29, 27, 27);
+  }
+  #silver {
+    background-color: rgb(188, 178, 178);
+  }
+  
+  span {
+   height: 120px; 
+   width: 120px;
+   border: 2px black solid;
+  }
+  
