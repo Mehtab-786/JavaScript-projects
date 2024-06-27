@@ -36,7 +36,11 @@ h1 {
 }
 
 .drum:active {
+<<<<<<< HEAD
     transform: scale(0.7);
+=======
+    transform: scale(0.7); 
+>>>>>>> e9e46a875026bd7d3995b55100587a0a405db111
  }
 
 
