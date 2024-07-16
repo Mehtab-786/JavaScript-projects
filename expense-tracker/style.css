@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100vw;
+    font-family: "Lato", sans-serif;
+    background-color: #f5f5f5;
+    color: #333; 
+}
+
+h1, h2 {
+    margin: 20px 0;
+    color: #444; 
+}
+
+
+label {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold; 
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+thead {
+    background-color: #3b5998; 
+    color: #fff; 
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+.form-group {
+    background-color: #fff;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 15px; 
+    margin-bottom: 20px;
+}
+#expense-tracker {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+#expense-tracker > div {
+    flex: 1 1 100px;
+    padding: 10px;
+    text-align: center;
+}
+#expense-tracker > div:last-child {
+    flex: 1 1 100%;
+    align-self: center;
+    margin-top: 10px;
+}
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    background-color: #3b5998; 
+    color: #fff; 
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #2a4276; 
+}
+
+#total {
+    margin: 20px auto;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+    #expense-tracker, table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px; 
+    }
+}
