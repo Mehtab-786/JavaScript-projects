@@ -1,48 +1,66 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   text-align: center;
-
+  background-color: #3a4e63;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.btn {
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
-  margin: 2rem; 
+#level-title {
+  font-size: 2rem;
+  color: #FEF2BF;
+  margin-bottom: 50px;
 }
-
 
 .container {
-  display: flex ;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
   justify-content: center;
 }
 
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 20%;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
 .red {
-  background-color: #D80032;
+  background-color: #A91D3A;
 }
 
 .green {
-  background-color: #597445;
+  background-color: #81A263;
 }
 
-.purple {
-  background-color: #7469B6;
-}
-.pink {
-  background-color: #9F0D7F ;
+.blue {
+  background-color: #0F67B1;
 }
 
-
-.flash {
-  background-color: white;
+.yellow {
+  background-color: #FFB200;
 }
 
-.userflash {
-  background-color: greenyellow;
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(238, 238, 238);
 }
 
-
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
 
