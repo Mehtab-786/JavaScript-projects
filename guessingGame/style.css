@@ -15,7 +15,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -24,6 +24,8 @@ body {
     color: #333;
     margin-bottom: 20px;
 }
+
+
 
 .attempts {
     font-size: 1.2em;
@@ -77,4 +79,23 @@ li{
     color: #007bff;
     cursor: pointer;
     text-decoration: underline;
+}
+
+
+.congos {
+    font-size: 1.5em;
+    color: blue;
+    margin-top: 20px;
+}
+
+.conging {
+    font-size: 1.5em;
+    color: rgb(163, 12, 57);
+    margin-top: 20px;
+    display: none;
+}
+
+.previous,
+.remainingHere {
+    display: inline;
 }
