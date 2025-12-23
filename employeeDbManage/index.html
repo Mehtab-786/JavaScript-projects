@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>Employee Database Management</h1>
+        <button class="addEmployee">Add Employee</button>
+      </header>
+      <div class="searchList">
+        <input type="text" class="searchInput"/>
+        <button class="searchBtn">Search</button>
+      </div>
+
+      <section class="employee-section">
+        <div class="employeeList"></div>
+        <div class="employeeData"></div>
+      </section>
+      <div class="dialog-box hidden">
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="name..." />
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email..." />
+          </div>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
