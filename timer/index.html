@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgb(44, 43, 43);
+      color: bisque;
+    "
+  >
+    <div class="All-input" style="border: 2px solid whitesmoke; padding: 20px;">
+      <div>
+        <label for="hh">Hours</label>
+        <input type="number" id="hh" />
+      </div>
+      <div>
+        <label for="mm">Minutes</label>
+        <input type="number" id="mm" />
+      </div>
+      <div>
+        <label for="ss">Seconds</label>
+        <input type="number" id="ss" />
+      </div>
+    </div>
+    <div style="border: 2px solid whitesmoke; padding: 20px; display: flex; gap: 20px;">
+        <p class="hour-timer">  00</p>
+        <p class="minute-timer">00</p>
+        <p class="second-timer">00</p>
+    </div>
+    <div style="border: 2px solid whitesmoke; padding: 20px;">
+      <button class="start">Start</button>
+      <button class="pause">Pause</button>
+      <button class="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
